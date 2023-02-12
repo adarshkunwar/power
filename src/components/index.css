@@ -1,0 +1,53 @@
+.body {
+    background-color: #333;
+    width: 100vw;
+    height: 100vh;
+    color:white
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box-wrapper {
+    width: 30vw;
+    height: 80vh;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.text-black {
+    color: black;
+}
+
+.result-set {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.result-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.button-set {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.button-set .button {
+    border: 2px solid white;
+    padding: 3px 50px;
+    cursor: pointer;
+}
